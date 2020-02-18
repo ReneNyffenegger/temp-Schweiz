@@ -1,0 +1,43 @@
+digraph {
+
+  node [ shape = box ]
+
+  bundesrat -> bk;
+  bundesrat -> eda;
+  bundesrat -> edi;
+  bundesrat -> ejpd;
+  bundesrat -> vbs;
+  bundesrat -> efd;
+  bundesrat -> wbf;
+  bundesrat -> uvek;
+
+  efd -> isb;
+
+
+  isb -> egov;
+  isb -> ocs ;
+  isb -> ps  ;
+  isb -> sd  ;
+  isb -> fc  ;
+  isb -> r   ;
+
+
+
+
+
+
+  bk   [ label=Bundeskanzlei ]
+  eda  [ label="Eidg. Department für\nauswärtige Angelegenheiten"                       ]
+  edi  [ label="Eidg. Department für\ndes Inneren"                                      ]
+  ejpd [ label="Eidg. Justiz und Polizeidepartment"                                     ]
+  vpd  [ label="Eidg. Department für\nVerteidigung, Bevölkerungs-\nschutz und Sport"    ]
+  efd  [ label="Eidg. Finanzdepartment"                                                 ]
+  wbf  [ label="Eidg. Finanzdepartment für Wirtschaft,\nBildung und Forschung"          ]
+  uvek [ label="Eidg. Finanzdepartment für Umwelt, Verkehr,\nEnergie und Kommunikation" ]
+
+
+  isb  [ label="Informatiksteuerungsorgan des Bundes" ]
+
+
+
+}
