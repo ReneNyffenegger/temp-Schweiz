@@ -11,6 +11,8 @@ digraph {
   bundesrat -> wbf;
   bundesrat -> uvek;
 
+  edi -> bar;
+
   efd -> isb;
 
 
@@ -30,10 +32,12 @@ digraph {
   eda  [ label="Eidg. Department für\nauswärtige Angelegenheiten"                       ]
   edi  [ label="Eidg. Department für\ndes Inneren"                                      ]
   ejpd [ label="Eidg. Justiz und Polizeidepartment"                                     ]
-  vpd  [ label="Eidg. Department für\nVerteidigung, Bevölkerungs-\nschutz und Sport"    ]
+  vbs  [ label="Eidg. Department für\nVerteidigung, Bevölkerungs-\nschutz und Sport"    ]
   efd  [ label="Eidg. Finanzdepartment"                                                 ]
   wbf  [ label="Eidg. Finanzdepartment für Wirtschaft,\nBildung und Forschung"          ]
   uvek [ label="Eidg. Finanzdepartment für Umwelt, Verkehr,\nEnergie und Kommunikation" ]
+
+  bar  [ label="Bundesarchiv"                                                           ]
 
 
   isb  [ label="Informatiksteuerungsorgan des Bundes" ]
